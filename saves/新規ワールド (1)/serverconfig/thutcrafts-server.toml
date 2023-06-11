@@ -1,0 +1,5 @@
+
+[rotates]
+	# Enables rotation for crafts. [Default: false]
+	canRotate = false
+
