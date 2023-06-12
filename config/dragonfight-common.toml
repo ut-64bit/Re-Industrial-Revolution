@@ -2,7 +2,7 @@
 ["Dragon settings"]
 	#Sets the dragon difficulty modifier, the higher the more difficult the dragon gets.Scales up mob spawn amount, dragon damage and health aswell as crystal respawn intervals. Note that the difficulty already scales on the playercount involved in the fight, this is a static bonus ontop.default:2, vanilla:0
 	#Range: 0 ~ 100
-	dragonDifficulty = 2
+	dragonDifficulty = 10
 	#Prints the dragon phase in chat if enabled: default:false
 	printDragonPhases = false
 	#Disables mob spawning on the Dragon island: default:true
@@ -11,7 +11,7 @@
 	disableLightning = false
 	#Modifies crystal respawn time, 0.5 = spawns twice as fast, 2 = twice as slow. default:1.0
 	#Range: 0.1 ~ 10.0
-	crystalRespawnTimeModifier = 1.0
+	crystalRespawnTimeModifier = 0.5
 	#Modifies lightning and explosion density, 0.5 = half as many, 2 = twice as many. default:1.0
 	#Range: 0.1 ~ 10.0
 	lightningExplosionDensity = 1.0

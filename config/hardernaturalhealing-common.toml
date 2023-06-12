@@ -11,7 +11,7 @@
 	maxBonusHitPointTotems = 300
 	#healingPerSecond
 	#Range: 0.0 ~ 10.0
-	healingPerSecond = 0.04
+	healingPerSecond = 0.01
 	#healthAfterDeath
 	#Range: 0 ~ 20
 	healthAfterDeath = 20
@@ -26,7 +26,7 @@
 	healingExhaustionCost = 2.0
 	#wakeupHealingAmount
 	#Range: 0.0 ~ 10.0
-	wakeupHealingAmount = 4.0
+	wakeupHealingAmount = 0.0
 	#extraExhaustionWhenHurt
 	#Range: 0.0 ~ 1.0
 	extraExhaustionWhenHurt = 0.0125
