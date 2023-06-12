@@ -6,8 +6,8 @@
 	#Default value: 32. Vanilla behaviour: 16
 	#Range: 0.0 ~ 2048.0
 	minHostileFollowRange = 32.0
+
 	#A list of follow range overrides. Entry format: "mod:entity_id,range"
-	#Example: ["minecraft:creeper,32","minecraft:zombie,16"]
 	#Default value: []
-	mobFollowRangeOverrides = ["minecraft:creeper,32","minecraft:zombie,32","minecraft:skeleton,48"]
+	mobFollowRangeOverrides = ["minecraft:creeper,32","minecraft:skeleton,48"]
 
