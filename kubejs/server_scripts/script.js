@@ -7,13 +7,12 @@ settings.logErroringRecipes = true
 
 onEvent('recipes', event => {
 	//common
-	event.recipes.shapeless(`alloyed:steel_ingot`, `immersiveengineering:ingot_steel`)
-	event.recipes.shapeless(`oldguns:steel_ingot`, `alloyed:steel_ingot`)
-	event.recipes.shapeless(`immersiveengineering:ingot_steel`, `oldguns:steel_ingot`)
+	event.recipes.shapeless(`alloyed:steel_ingot`, `#forge:ingots/steel`)
+	event.recipes.shapeless(`oldguns:steel_ingot`, `#forge:ingots/steel`)
+	event.recipes.shapeless(`immersiveengineering:ingot_steel`, `#forge:ingots/steel`)
 
 	// oldguns
 	event.remove({ output: 'oldguns:steel_ingot' })
-	event.remove({ output: 'oldguns:steel_block' })
 	event.remove({ output: 'oldguns:iron_with_coal' })
 	event.replaceInput({ input: 'oldguns:steel_ingot' }, `oldguns:steel_ingot`, `#forge:ingots/steel`)
 	event.replaceInput({ input: 'oldguns:steel_block' }, `oldguns:steel_block`, `#forge:storage_blocks/steel`)
@@ -40,5 +39,6 @@ onEvent('recipes', event => {
 })
 
 onEvent('item.tags', event => {
-
+	event.add('forge:ingots/steel', 'oldguns:steel_ingot')
+	event.add('forge:storage_blocks/steel', 'oldguns:steel_ingot')
 })
