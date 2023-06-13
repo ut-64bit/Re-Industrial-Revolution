@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "modid": "ceramics",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "ceramics:clay_chestplate"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_clay",
+    "amount": 2000,
+    "unit_size": 50
+  },
+  "temperature": 450,
+  "time": 144
+}
