@@ -7,28 +7,29 @@ settings.logErroringRecipes = true
 
 onEvent('recipes', event => {
 	//common
-	event.recipes.shapeless(`alloyed:steel_ingot`, `#forge:ingots/steel`)
-	event.recipes.shapeless(`oldguns:steel_ingot`, `#forge:ingots/steel`)
-	event.recipes.shapeless(`immersiveengineering:ingot_steel`, `#forge:ingots/steel`)
+	event.recipes.shapeless('alloyed:steel_ingot', '#forge:ingots/steel')
+	event.recipes.shapeless('oldguns:steel_ingot', '#forge:ingots/steel')
+	event.recipes.shapeless('immersiveengineering:ingot_steel', '#forge:ingots/steel')
 
 	// minecraft
 	let removeTools = (material) => {
-		event.remove({ output: 'minecraft:' + material + '_pickaxe' })
-		event.remove({ output: 'minecraft:' + material + '_axe' })
-		event.remove({ output: 'minecraft:' + material + '_shovel' })
-		event.remove({ output: 'minecraft:' + material + '_hoe' })
+		event.remove({ output: material + '_pickaxe' })
+		event.remove({ output: material + '_axe' })
+		event.remove({ output: material + '_shovel' })
+		event.remove({ output: material + '_hoe' })
 	}
-	removeTools('wooden')
-	removeTools('stone')
-	removeTools('iron')
-	removeTools('golden')
-	removeTools('diamond')
+	removeTools('minecraft:wooden')
+	removeTools('minecraft:stone')
+	removeTools('minecraft:iron')
+	removeTools('minecraft:golden')
+	removeTools('minecraft:diamond')
+	event.replaceOutput({ id: 'minecraft:iron_ingot_from_smelting_raw_iron' }, 'minecraft:iron_ingot', '3x minecraft:iron_nugget')
 
 	// oldguns
 	event.remove({ output: 'oldguns:steel_ingot' })
 	event.remove({ output: 'oldguns:iron_with_coal' })
-	event.replaceInput({ input: 'oldguns:steel_ingot' }, `oldguns:steel_ingot`, `#forge:ingots/steel`)
-	event.replaceInput({ input: 'oldguns:steel_block' }, `oldguns:steel_block`, `#forge:storage_blocks/steel`)
+	event.replaceInput({ input: 'oldguns:steel_ingot' }, 'oldguns:steel_ingot', '#forge:ingots/steel')
+	event.replaceInput({ input: 'oldguns:steel_block' }, 'oldguns:steel_block', '#forge:storage_blocks/steel')
 
 	// tconstruct
 	event.remove({ type: 'tconstruct:ore_melting' })
