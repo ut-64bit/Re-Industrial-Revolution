@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/worn"
+  },
+  "slots": {
+    "defense": 1
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "tconstruct:golden",
+    "level": 1
+  },
+  "max_level": 1
+}

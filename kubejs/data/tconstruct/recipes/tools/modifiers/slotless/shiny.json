@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "tconstruct:shiny",
+    "level": 1
+  },
+  "max_level": 1
+}

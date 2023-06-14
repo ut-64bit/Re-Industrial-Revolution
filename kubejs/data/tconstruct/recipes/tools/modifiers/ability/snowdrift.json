@@ -1,0 +1,32 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "minecraft:carved_pumpkin"
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "minecraft:snow_block"
+    },
+    {
+      "item": "minecraft:snow_block"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/boots"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "tconstruct:snowdrift",
+    "level": 1
+  },
+  "max_level": 1
+}

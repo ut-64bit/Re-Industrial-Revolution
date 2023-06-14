@@ -1,0 +1,36 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "tconstruct:tanks"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "forge:ingots/copper"
+    },
+    {
+      "tag": "forge:ingots/copper"
+    }
+  ],
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/armor/helmets"
+    },
+    {
+      "tag": "tconstruct:modifiable/staffs"
+    }
+  ],
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "tconstruct:slurping",
+    "level": 1
+  }
+}

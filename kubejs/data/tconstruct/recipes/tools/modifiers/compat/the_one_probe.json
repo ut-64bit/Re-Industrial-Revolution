@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "modid": "theoneprobe",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "theoneprobe:probe"
+    }
+  ],
+  "tools": [
+    {
+      "tag": "tconstruct:modifiable/armor/helmets"
+    },
+    {
+      "tag": "tconstruct:modifiable/held"
+    }
+  ],
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": {
+    "name": "tconstruct:the_one_probe",
+    "level": 1
+  },
+  "max_level": 1
+}
