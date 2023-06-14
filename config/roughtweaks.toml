@@ -20,7 +20,7 @@
 	plasterHealCount = 3
 	#Use count for the bandage item
 	#Range: > 0
-	bandageHealCount = 5
+	bandageHealCount = 4
 	#Use count for the medkit item
 	#Range: > 0
 	medkitHealCount = 16
