@@ -21,26 +21,6 @@
         }
       }
     ],
-    "ars_nouveau:wixie": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.flying_speed": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
     "minecraft:glow_squid": [
       {
         "conditions_to_apply": [],
@@ -80,46 +60,6 @@
         }
       }
     ],
-    "ars_nouveau:familiar_wixie": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.flying_speed": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_nouveau:vexing_weald_walker": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
     "minecraft:horse": [
       {
         "conditions_to_apply": [],
@@ -132,26 +72,6 @@
           "minecraft:generic.follow_range": "*1",
           "minecraft:generic.max_health": "*1",
           "minecraft:horse.jump_strength": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_nouveau:wilden_stalker": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
           "minecraft:generic.armor": "*1",
           "forge:step_height_addition": "*1",
           "forge:nametag_distance": "*1",
@@ -182,44 +102,28 @@
     ],
     "minecraft:husk": [
       {
-        "conditions_to_apply": [
-          {
-            "biome_tag_is": [
-              "minecraft:has_structure/desert_pyramid"
-            ],
-            "type": "mobifier:biome_tag"
-          },
-          {
-            "dimension_is": [
-              "minecraft:overworld"
-            ],
-            "type": "mobifier:dimension"
-          }
-        ],
-        "xp_modifier": "*2",
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
         "attribute_modifier": {
-          "forge:swim_speed": "*2",
-          "ars_nouveau:mana_regen": "*2",
-          "minecraft:generic.attack_damage": "*2",
-          "minecraft:generic.luck": "*2",
-          "minecraft:generic.armor_toughness": "*2",
-          "minecraft:generic.movement_speed": "*2",
-          "forge:step_height_addition": "*2",
-          "minecraft:zombie.spawn_reinforcements": "*2",
-          "minecraft:generic.attack_knockback": "*2",
-          "minecraft:generic.follow_range": "*2",
-          "forge:attack_range": "*2",
-          "forge:entity_gravity": "*2",
-          "minecraft:horse.jump_strength": "*2",
-          "minecraft:generic.armor": "*2",
-          "minecraft:generic.max_health": "*2",
-          "forge:nametag_distance": "*2",
-          "minecraft:generic.attack_speed": "*2",
-          "ars_nouveau:max_mana": "*2",
-          "minecraft:generic.flying_speed": "*2",
-          "botania:pixie_spawn_chance": "*2",
-          "minecraft:generic.knockback_resistance": "*2",
-          "forge:reach_distance": "*2"
+          "forge:swim_speed": "*1",
+          "minecraft:generic.attack_damage": "*1",
+          "minecraft:generic.luck": "*1",
+          "minecraft:generic.armor_toughness": "*1",
+          "minecraft:generic.movement_speed": "*1",
+          "forge:step_height_addition": "*1",
+          "minecraft:zombie.spawn_reinforcements": "*1",
+          "minecraft:generic.attack_knockback": "*1",
+          "minecraft:generic.follow_range": "*1",
+          "forge:attack_range": "*1",
+          "forge:entity_gravity": "*1",
+          "minecraft:horse.jump_strength": "*1",
+          "minecraft:generic.armor": "*1",
+          "minecraft:generic.max_health": "*1",
+          "forge:nametag_distance": "*1",
+          "minecraft:generic.attack_speed": "*1",
+          "minecraft:generic.flying_speed": "*1",
+          "minecraft:generic.knockback_resistance": "*1",
+          "forge:reach_distance": "*1"
         }
       }
     ],
@@ -283,65 +187,6 @@
         }
       }
     ],
-    "ars_elemental:air_mage": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_elemental:firenando_entity": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_elemental:summon_vhex": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
     "minecraft:donkey": [
       {
         "conditions_to_apply": [],
@@ -354,26 +199,6 @@
           "minecraft:generic.follow_range": "*1",
           "minecraft:generic.max_health": "*1",
           "minecraft:horse.jump_strength": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_elemental:water_mage": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
           "minecraft:generic.armor": "*1",
           "forge:step_height_addition": "*1",
           "forge:nametag_distance": "*1",
@@ -421,25 +246,6 @@
         }
       }
     ],
-    "ars_nouveau:dummy": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
     "minecraft:creeper": [
       {
         "conditions_to_apply": [],
@@ -447,7 +253,7 @@
         "attribute_modifier": {
           "forge:swim_speed": "*1",
           "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1.3",
+          "minecraft:generic.movement_speed": "*1.2",
           "minecraft:generic.armor_toughness": "*1",
           "minecraft:generic.attack_knockback": "*1",
           "minecraft:generic.follow_range": "*1",
@@ -456,7 +262,7 @@
           "forge:step_height_addition": "*1",
           "forge:nametag_distance": "*1",
           "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
+          "minecraft:generic.knockback_resistance": "+0.3"
         }
       }
     ],
@@ -506,7 +312,6 @@
         "conditions_to_apply": [],
         "xp_modifier": "*1",
         "attribute_modifier": {
-          "ars_nouveau:mana_regen": "*1",
           "forge:swim_speed": "*1",
           "minecraft:generic.attack_damage": "*1",
           "minecraft:generic.armor_toughness": "*1",
@@ -520,30 +325,8 @@
           "minecraft:generic.max_health": "*1",
           "forge:attack_range": "*1",
           "minecraft:generic.attack_speed": "*1",
-          "ars_nouveau:max_mana": "*1",
-          "botania:pixie_spawn_chance": "*1",
           "minecraft:generic.knockback_resistance": "*1",
           "forge:reach_distance": "*1"
-        }
-      }
-    ],
-    "ars_elemental:summon_mk": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
         }
       }
     ],
@@ -553,26 +336,6 @@
         "xp_modifier": "*1",
         "attribute_modifier": {
           "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_elemental:fire_mage": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
           "minecraft:generic.movement_speed": "*1",
           "minecraft:generic.armor_toughness": "*1",
           "minecraft:generic.attack_knockback": "*1",
@@ -666,46 +429,7 @@
         }
       }
     ],
-    "botania:doppleganger": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
     "tconstruct:earth_slime": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "create_sa:drill_module": [
       {
         "conditions_to_apply": [],
         "xp_modifier": "*1",
@@ -805,26 +529,6 @@
         }
       }
     ],
-    "ars_nouveau:drygmy": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.flying_speed": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
     "minecraft:wandering_trader": [
       {
         "conditions_to_apply": [],
@@ -864,26 +568,6 @@
         }
       }
     ],
-    "ars_nouveau:familiar_bookwyrm": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.flying_speed": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
     "minecraft:iron_golem": [
       {
         "conditions_to_apply": [],
@@ -891,37 +575,6 @@
         "attribute_modifier": {
           "forge:swim_speed": "*1",
           "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "create_sa:projectile_flamethrower_pr_2": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "immersiveengineering:cart_reinforcedcrate": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "botania:pixie": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
           "minecraft:generic.movement_speed": "*1",
           "minecraft:generic.armor_toughness": "*1",
           "minecraft:generic.attack_knockback": "*1",
@@ -952,66 +605,6 @@
           "forge:nametag_distance": "*1",
           "forge:entity_gravity": "*1",
           "minecraft:generic.flying_speed": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "mythicbotany:alf_pixie": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_nouveau:wilden_boss": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "minecraft:generic.max_health": "*2",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.flying_speed": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "create_sa:fan_module": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
           "minecraft:generic.knockback_resistance": "*1"
         }
       }
@@ -1056,12 +649,6 @@
         }
       }
     ],
-    "materialis:manashot": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
     "minecraft:mule": [
       {
         "conditions_to_apply": [],
@@ -1099,12 +686,6 @@
         }
       }
     ],
-    "cloudstorage:badloon_hand": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
     "minecraft:vindicator": [
       {
         "conditions_to_apply": [],
@@ -1123,24 +704,6 @@
           "forge:entity_gravity": "*1",
           "minecraft:generic.knockback_resistance": "*1"
         }
-      }
-    ],
-    "botania:mana_burst": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "immersiveengineering:chemthrower_shot": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "adpother:gas": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
       }
     ],
     "minecraft:slime": [
@@ -1183,18 +746,6 @@
         }
       }
     ],
-    "botania:babylon_weapon": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "minecraft:leash_knot": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
     "minecraft:pufferfish": [
       {
         "conditions_to_apply": [],
@@ -1212,38 +763,6 @@
           "forge:entity_gravity": "*1",
           "minecraft:generic.knockback_resistance": "*1"
         }
-      }
-    ],
-    "ars_nouveau:scryer_camera": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_nouveau:blazing_weald_walker": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "minecraft:experience_orb": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
       }
     ],
     "minecraft:fox": [
@@ -1266,30 +785,6 @@
         }
       }
     ],
-    "botania:thrown_item": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_nouveau:fangs": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "botania:player_mover": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "tconstruct:crystalshot": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
     "minecraft:silverfish": [
       {
         "conditions_to_apply": [],
@@ -1310,12 +805,6 @@
         }
       }
     ],
-    "create_enchantment_industry:hyper_experience_orb": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
     "minecraft:endermite": [
       {
         "conditions_to_apply": [],
@@ -1334,12 +823,6 @@
           "forge:entity_gravity": "*1",
           "minecraft:generic.knockback_resistance": "*1"
         }
-      }
-    ],
-    "minecraft:firework_rocket": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
       }
     ],
     "minecraft:chicken": [
@@ -1369,7 +852,7 @@
           "forge:swim_speed": "*1",
           "minecraft:generic.attack_damage": "*1",
           "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.movement_speed": "*1.3",
+          "minecraft:generic.movement_speed": "*1.2",
           "minecraft:zombie.spawn_reinforcements": "*1",
           "minecraft:generic.attack_knockback": "*1",
           "minecraft:generic.follow_range": "*1",
@@ -1380,114 +863,6 @@
           "forge:entity_gravity": "*1",
           "minecraft:generic.knockback_resistance": "*1"
         }
-      }
-    ],
-    "ars_elemental:firenando_familiar": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.flying_speed": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "create_enchantment_industry:hyper_experience_bottle": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "tconstruct:fancy_item_frame": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_nouveau:familiar_whirlisprig": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.flying_speed": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "botania:vine_ball": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "minecraft:spawner_minecart": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_elemental:flashing_weald_walker": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_elemental:siren_entity": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "botania:spark": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
       }
     ],
     "tconstruct:sky_slime": [
@@ -1530,59 +905,7 @@
         }
       }
     ],
-    "botania:falling_star": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
     "create_sa:magnet_module": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_nouveau:wilden_hunter": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "minecraft:boat": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_nouveau:cascading_weald_walker": [
       {
         "conditions_to_apply": [],
         "xp_modifier": "*1",
@@ -1620,12 +943,6 @@
           "forge:entity_gravity": "*1",
           "minecraft:generic.knockback_resistance": "*1"
         }
-      }
-    ],
-    "minecraft:trident": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
       }
     ],
     "minecraft:polar_bear": [
@@ -1826,18 +1143,6 @@
         }
       }
     ],
-    "minecraft:item_frame": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "create:carriage_contraption": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
     "minecraft:vex": [
       {
         "conditions_to_apply": [],
@@ -1856,42 +1161,6 @@
           "forge:entity_gravity": "*1",
           "minecraft:generic.knockback_resistance": "*1"
         }
-      }
-    ],
-    "tconstruct:quartz_shuriken": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "immersiveengineering:revolver_shot_homing": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "mythicbotany:mjoellnir": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "minecraft:minecart": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "minecraft:item": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "minecraft:dragon_fireball": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
       }
     ],
     "minecraft:cod": [
@@ -1933,32 +1202,6 @@
         }
       }
     ],
-    "ars_nouveau:familiar_starbuncle": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.flying_speed": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "tconstruct:glow_ball": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
     "cloudstorage:balloon_buddy": [
       {
         "conditions_to_apply": [],
@@ -1980,12 +1223,6 @@
         }
       }
     ],
-    "tconstruct:flint_shuriken": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
     "create_sa:brass_cube_r": [
       {
         "conditions_to_apply": [],
@@ -1993,51 +1230,6 @@
         "attribute_modifier": {
           "forge:swim_speed": "*1",
           "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "create:seat": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_elemental:siren_familiar": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.flying_speed": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_nouveau:starbuncle": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
           "minecraft:generic.movement_speed": "*1",
           "minecraft:generic.armor_toughness": "*1",
           "minecraft:generic.attack_knockback": "*1",
@@ -2110,24 +1302,6 @@
         }
       }
     ],
-    "ars_nouveau:orbit": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "immersiveengineering:revolver_shot_flare": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_nouveau:linger": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
     "minecraft:cow": [
       {
         "conditions_to_apply": [],
@@ -2143,64 +1317,6 @@
           "forge:step_height_addition": "*1",
           "forge:nametag_distance": "*1",
           "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_nouveau:spike": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "immersivepetroleum:speedboat": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_nouveau:familiar_drygmy": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.flying_speed": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "minecraft:potion": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_nouveau:whirlisprig": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.flying_speed": "*1",
           "minecraft:generic.knockback_resistance": "*1"
         }
       }
@@ -2262,71 +1378,6 @@
         }
       }
     ],
-    "ars_nouveau:flourishing_weald_walker": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "minecraft:hopper_minecart": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_elemental:summon_strider": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_elemental:earth_mage": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
     "minecraft:rabbit": [
       {
         "conditions_to_apply": [],
@@ -2344,18 +1395,6 @@
           "forge:entity_gravity": "*1",
           "minecraft:generic.knockback_resistance": "*1"
         }
-      }
-    ],
-    "minecraft:painting": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_elemental:curved_projectile": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
       }
     ],
     "minecraft:pillager": [
@@ -2398,154 +1437,6 @@
         }
       }
     ],
-    "minecraft:lightning_bolt": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "immersiveengineering:railgun_shot": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "minecraft:fishing_bobber": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "dummmmmmy:dummy_number": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_elemental:summon_dolphin": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "minecraft:tnt_minecart": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "immersiveengineering:revolver_shot_wolfpack": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_elemental:summon_direwolf": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_nouveau:follow_proj": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "minecraft:command_block_minecart": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_nouveau:summon_skeleton": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_nouveau:wilden_guardian": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "botania:pink_wither": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "minecraft:generic.max_health": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.flying_speed": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
     "minecraft:bat": [
       {
         "conditions_to_apply": [],
@@ -2565,76 +1456,6 @@
         }
       }
     ],
-    "oldguns:bullet": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_nouveau:summon_horse": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:horse.jump_strength": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_elemental:summon_wskeleton": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "minecraft:fireball": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "minecraft:llama_spit": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "minecraft:furnace_minecart": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "minecraft:evoker_fangs": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
     "minecraft:piglin": [
       {
         "conditions_to_apply": [],
@@ -2647,26 +1468,6 @@
           "minecraft:generic.attack_knockback": "*1",
           "minecraft:generic.follow_range": "*1",
           "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_elemental:summon_skelehorse": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:horse.jump_strength": "*1",
           "minecraft:generic.armor": "*1",
           "forge:step_height_addition": "*1",
           "forge:nametag_distance": "*1",
@@ -2694,18 +1495,6 @@
           "minecraft:generic.flying_speed": "*1",
           "minecraft:generic.knockback_resistance": "*1"
         }
-      }
-    ],
-    "minecraft:snowball": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "minecraft:spectral_arrow": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
       }
     ],
     "cloudstorage:bloviator": [
@@ -2769,38 +1558,6 @@
         }
       }
     ],
-    "immersiveengineering:sawblade": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "minecraft:egg": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_nouveau:bookwyrm": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.flying_speed": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
     "minecraft:zombie_horse": [
       {
         "conditions_to_apply": [],
@@ -2819,12 +1576,6 @@
           "forge:entity_gravity": "*1",
           "minecraft:generic.knockback_resistance": "*1"
         }
-      }
-    ],
-    "ars_nouveau:spell_proj": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
       }
     ],
     "minecraft:magma_cube": [
@@ -2847,12 +1598,6 @@
         }
       }
     ],
-    "minecraft:small_fireball": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
     "minecraft:spider": [
       {
         "conditions_to_apply": [],
@@ -2871,18 +1616,6 @@
           "forge:entity_gravity": "*1",
           "minecraft:generic.knockback_resistance": "*1"
         }
-      }
-    ],
-    "minecraft:marker": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "farmersdelight:rotten_tomato": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
       }
     ],
     "minecraft:cat": [
@@ -2905,69 +1638,6 @@
         }
       }
     ],
-    "create:potato_projectile": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_nouveau:amethyst_golem": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "create:gantry_contraption": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "create_sa:projectile_flamethrower_pr": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_nouveau:summon_wolf": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "sophisticatedbackpacks:everlasting_backpack_item": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
     "minecraft:tropical_fish": [
       {
         "conditions_to_apply": [],
@@ -2987,33 +1657,7 @@
         }
       }
     ],
-    "botania:corporea_spark": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
     "minecraft:ocelot": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1",
-        "attribute_modifier": {
-          "forge:swim_speed": "*1",
-          "minecraft:generic.attack_damage": "*1",
-          "minecraft:generic.movement_speed": "*1",
-          "minecraft:generic.armor_toughness": "*1",
-          "minecraft:generic.attack_knockback": "*1",
-          "minecraft:generic.follow_range": "*1",
-          "minecraft:generic.max_health": "*1",
-          "minecraft:generic.armor": "*1",
-          "forge:step_height_addition": "*1",
-          "forge:nametag_distance": "*1",
-          "forge:entity_gravity": "*1",
-          "minecraft:generic.knockback_resistance": "*1"
-        }
-      }
-    ],
-    "ars_nouveau:ally_vex": [
       {
         "conditions_to_apply": [],
         "xp_modifier": "*1",
@@ -3051,24 +1695,6 @@
           "forge:entity_gravity": "*1",
           "minecraft:generic.knockback_resistance": "*1"
         }
-      }
-    ],
-    "tconstruct:efln_ball": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "immersiveengineering:skyline_hook": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
-      }
-    ],
-    "ars_nouveau:an_lightning": [
-      {
-        "conditions_to_apply": [],
-        "xp_modifier": "*1"
       }
     ],
     "minecraft:panda": [
