@@ -21,7 +21,7 @@
           "fluid": "tconstruct:molten_iron",
           "amount": 810
         },
-        "temperature": 800,
+        "temperature": 900,
         "time": 361,
         "byproducts": [
           {
@@ -47,7 +47,7 @@
           "fluid": "tconstruct:molten_iron",
           "amount": 810
         },
-        "temperature": 800,
+        "temperature": 900,
         "time": 361,
         "byproducts": [
           {
