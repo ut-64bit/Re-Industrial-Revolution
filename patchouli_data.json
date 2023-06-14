@@ -1,49 +1,5 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {
-    "botania:lexicon": {
-      "viewedEntries": [
-        "mythicbotany:mythic_botany/tools",
-        "mythicbotany:mythic_botany/pylons",
-        "mythicbotany:mythic_botany/rune_rituals",
-        "mythicbotany:mythic_botany/mimir",
-        "mythicbotany:mythic_botany/rings",
-        "mythicbotany:mythic_botany/runes",
-        "mythicbotany:mythic_botany/infuser",
-        "mythicbotany:mythic_botany/generating",
-        "mythicbotany:mythic_botany/mjoellnir",
-        "mythicbotany:mythic_botany/manaband",
-        "mythicbotany:mythic_botany/functional",
-        "botania:devices/fel_pumpkin",
-        "botania:ender/ender_eye_block",
-        "botania:misc/dispenser_tweaks",
-        "botania:basics/black_lotus",
-        "botania:basics/flowers",
-        "mythicbotany:alfheim/andwari",
-        "botania:basics/lexicon",
-        "mythicbotany:alfheim/alfheim_resources",
-        "botania:baubles/cosmetic_baubles",
-        "botania:baubles/item_finder",
-        "botania:misc/banners",
-        "mythicbotany:alfheim/kvasir",
-        "botania:basics/pure_daisy",
-        "botania:ender/ender_air",
-        "botania:misc/pavement",
-        "botania:misc/azulejo",
-        "botania:basics/welcome",
-        "botania:baubles/intro",
-        "mythicbotany:alfheim/alfheim_landscape",
-        "botania:misc/mushrooms",
-        "botania:misc/preventing_decay",
-        "botania:tools/overgrowth_seed",
-        "botania:misc/blaze_block",
-        "botania:basics/flower_bag",
-        "botania:basics/apothecary",
-        "botania:misc/cacophonium"
-      ],
-      "bookmarks": [],
-      "completedManualQuests": []
-    }
-  }
+  "bookData": {}
 }
