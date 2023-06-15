@@ -2,6 +2,7 @@
 
 onEvent('item.registry', event => {
 	event.create('unprocessed_steel_ingot','create:sequenced_assembly')
+	event.create('blaze_core')
 })
 
 onEvent('block.registry', event => {
