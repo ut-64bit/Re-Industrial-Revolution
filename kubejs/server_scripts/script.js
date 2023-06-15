@@ -6,9 +6,8 @@ settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
 onEvent('recipes', event => {
-	//common
+	// common
 	event.recipes.shapeless('alloyed:steel_ingot', '#forge:ingots/steel')
-	event.recipes.shapeless('oldguns:steel_ingot', '#forge:ingots/steel')
 	event.recipes.shapeless('immersiveengineering:ingot_steel', '#forge:ingots/steel')
 
 	// minecraft
@@ -23,33 +22,84 @@ onEvent('recipes', event => {
 	removeTools('minecraft:iron')
 	removeTools('minecraft:golden')
 	removeTools('minecraft:diamond')
-	event.replaceOutput({ id: 'minecraft:iron_ingot_from_smelting_raw_iron' }, 'minecraft:iron_ingot', '3x minecraft:iron_nugget')
 
 	// oldguns
 	event.remove({ output: 'oldguns:steel_ingot' })
 	event.remove({ output: 'oldguns:iron_with_coal' })
-	event.replaceInput({ input: 'oldguns:steel_ingot' }, 'oldguns:steel_ingot', '#forge:ingots/steel')
-	event.replaceInput({ input: 'oldguns:steel_block' }, 'oldguns:steel_block', '#forge:storage_blocks/steel')
 
 	// tconstruct
-	event.remove({ type: 'tconstruct:ore_melting' })
+	let TC = (id) => 'tconstruct:' + id
+	const MetalMaterials = [
+		'aluminum',
+		'amethyst_bronze',
+		'brass',
+		'bronze',
+		'cobalt',
+		'constantan',
+		'copper',
+		'electrum',
+		'emerald',
+		'enderium',
+		'gold',
+		'hepatizon',
+		'invar',
+		'iron',
+		'knightslime',
+		'lead',
+		'lumium',
+		'manyullyn',
+		'molten_debris',
+		'netherite',
+		'nickel',
+		'osmium',
+		'pewter',
+		'pig_iron',
+		'platinum',
+		'queens_slime',
+		'refined_glowstone',
+		'refined_obsidian',
+		'rose_gold',
+		'signalum',
+		'silver',
+		'slimesteel',
+		'soulsteel',
+		'steel',
+		'tin',
+		'tungsten',
+		'uranium',
+		'zinc'
+	]
 	event.remove({ output: 'tconstruct:earth_slime_sling' })
 	event.remove({ output: 'tconstruct:ender_slime_sling' })
 	event.remove({ output: 'tconstruct:ichor_slime_sling' })
 	event.remove({ output: 'tconstruct:sky_slime_sling' })
 	event.remove({ id: 'tconstruct:smeltery/seared/grout' })
 	event.remove({ id: 'tconstruct:smeltery/seared/grout_multiple' })
+	MetalMaterials.forEach(material => {
+		event.remove({ id: 'tconstruct:smeltery/casting/metal/' + material + '/plate_gold_cast' })
+		event.remove({ id: 'tconstruct:smeltery/casting/metal/' + material + '/plate_sand_cast' })
+		event.remove({ id: 'tconstruct:smeltery/casting/metal/' + material + '/wire_gold_cast' })
+		event.remove({ id: 'tconstruct:smeltery/casting/metal/' + material + '/wire_sand_cast' })
+	})
 
 	// create
-	event.recipes.create.mixing('2x tconstruct:grout', ['minecraft:clay_ball', '#minecraft:sand', 'minecraft:gravel'])
+	event.recipes.create.mixing(
+		['2x tconstruct:grout', Item.of('tconstruct:grout').withChance(0.5)],
+		['minecraft:clay_ball', '#minecraft:sand', 'minecraft:gravel']
+	)
 
-	// ars_nouveau
-	event.remove({ output: 'ars_nouveau:warp_scroll' })
+	let inter = 'kubejs:unprocessed_steel_ingot'
+	event.recipes.create.sequencedAssembly('oldguns:steel_ingot', '#forge:ingots/steel',
+		[
+			event.recipes.create.filling(inter, [inter, Fluid.of('minecraft:lava', 250)]),
+			event.recipes.create.pressing(inter, inter),
+			event.recipes.create.pressing(inter, inter)
+		]).transitionalItem(inter)
+
 })
 
 onEvent('item.tags', event => {
-	event.add('forge:ingots/steel', 'oldguns:steel_ingot')
-	event.add('forge:storage_blocks/steel', 'oldguns:steel_ingot')
+	// item tag
 })
 
 onEvent("lootjs", (event) => {
