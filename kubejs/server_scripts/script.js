@@ -28,7 +28,6 @@ onEvent('recipes', event => {
 	event.remove({ output: 'oldguns:iron_with_coal' })
 
 	// tconstruct
-	let TC = (id) => 'tconstruct:' + id
 	const MetalMaterials = [
 		'aluminum',
 		'amethyst_bronze',
@@ -76,10 +75,8 @@ onEvent('recipes', event => {
 	event.remove({ id: 'tconstruct:smeltery/seared/grout' })
 	event.remove({ id: 'tconstruct:smeltery/seared/grout_multiple' })
 	MetalMaterials.forEach(material => {
-		event.remove({ id: 'tconstruct:smeltery/casting/metal/' + material + '/plate_gold_cast' })
-		event.remove({ id: 'tconstruct:smeltery/casting/metal/' + material + '/plate_sand_cast' })
-		event.remove({ id: 'tconstruct:smeltery/casting/metal/' + material + '/wire_gold_cast' })
-		event.remove({ id: 'tconstruct:smeltery/casting/metal/' + material + '/wire_sand_cast' })
+		event.remove({ type: 'tconstruct:casting_table', output: '#forge:plates/' + material })
+		event.remove({ type: 'tconstruct:casting_table', output: '#forge:wires/' + material })
 	})
 
 	// create
