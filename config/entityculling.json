@@ -3,16 +3,10 @@
   "renderNametagsThroughWalls": true,
   "blockEntityWhitelist": [
     "create:rope_pulley",
-    "botania:flame_ring",
     "minecraft:beacon",
-    "create:hose_pulley",
-    "betterend:eternal_pedestal",
-    "botania:magic_missile",
-    "botania:falling_star"
+    "create:hose_pulley"
   ],
-  "entityWhitelist": [
-    "botania:mana_burst"
-  ],
+  "entityWhitelist": [],
   "tracingDistance": 128,
   "debugMode": false,
   "sleepDelay": 10,
