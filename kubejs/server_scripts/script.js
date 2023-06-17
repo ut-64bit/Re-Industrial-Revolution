@@ -76,8 +76,8 @@ onEvent('recipes', event => {
 	event.remove({ id: 'tconstruct:smeltery/seared/grout' })
 	event.remove({ id: 'tconstruct:smeltery/seared/grout_multiple' })
 	MetalMaterials.forEach(material => {
-		event.remove({ type: 'tconstruct:casting_table', output: '#forge:plates/${material}'})
-		event.remove({ type: 'tconstruct:casting_table', output: '#forge:wires/${material}'})
+		event.remove({ type: 'tconstruct:casting_table', output: '#forge:plates/${material}' })
+		event.remove({ type: 'tconstruct:casting_table', output: '#forge:wires/${material}' })
 	})
 
 	// create
@@ -85,7 +85,6 @@ onEvent('recipes', event => {
 		['2x tconstruct:grout', Item.of('tconstruct:grout').withChance(0.5)],
 		['minecraft:clay_ball', '#minecraft:sand', 'minecraft:gravel']
 	)
-
 	let inter = 'kubejs:unprocessed_steel_ingot'
 	event.recipes.create.sequencedAssembly('oldguns:steel_ingot', '#forge:ingots/steel',
 		[

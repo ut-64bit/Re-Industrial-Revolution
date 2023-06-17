@@ -3,10 +3,11 @@
 onEvent('jei.hide.items', event => {
 	// minecraft
 	let hideTools = (material) => {
-		event.hide(material + '_axe')
-		event.hide(material + '_pickaxe')
-		event.hide(material + '_shovel')
-		event.hide(material + '_hoe')
+		event.hide('${material}_axe')
+		event.hide('${material}_pickaxe')
+		event.hide('${material}_shovel')
+		event.hide('${material}_hoe')
+		event.hide('${material}_sword')
 	}
 	hideTools('minecraft:wooden')
 	hideTools('minecraft:iron')
