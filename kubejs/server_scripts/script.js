@@ -12,10 +12,11 @@ onEvent('recipes', event => {
 
 	// minecraft
 	let removeTools = (material) => {
-		event.remove({ output: material + '_pickaxe' })
-		event.remove({ output: material + '_axe' })
-		event.remove({ output: material + '_shovel' })
-		event.remove({ output: material + '_hoe' })
+		event.remove({ output: '${material}_pickaxe' })
+		event.remove({ output: '${material}_axe' })
+		event.remove({ output: '${material}_shovel' })
+		event.remove({ output: '${material}_hoe' })
+		event.remove({ output: '${material}_sword' })
 	}
 	removeTools('minecraft:wooden')
 	removeTools('minecraft:stone')
@@ -75,8 +76,8 @@ onEvent('recipes', event => {
 	event.remove({ id: 'tconstruct:smeltery/seared/grout' })
 	event.remove({ id: 'tconstruct:smeltery/seared/grout_multiple' })
 	MetalMaterials.forEach(material => {
-		event.remove({ type: 'tconstruct:casting_table', output: '#forge:plates/' + material })
-		event.remove({ type: 'tconstruct:casting_table', output: '#forge:wires/' + material })
+		event.remove({ type: 'tconstruct:casting_table', output: '#forge:plates/${material}'})
+		event.remove({ type: 'tconstruct:casting_table', output: '#forge:wires/${material}'})
 	})
 
 	// create
