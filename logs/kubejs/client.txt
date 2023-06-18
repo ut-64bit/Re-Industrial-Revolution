@@ -1,2 +1,2 @@
-[15:20:35] [INFO ] Loaded script client_scripts:script.js in 0.001 s
-[15:20:35] [INFO ] Loaded 1/1 KubeJS client scripts in 0.009 s
+[21:22:43] [INFO ] Loaded script client_scripts:script.js in 0.004 s
+[21:22:43] [INFO ] Loaded 1/1 KubeJS client scripts in 0.014 s

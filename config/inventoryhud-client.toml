@@ -25,7 +25,7 @@
 	#Show/Hide armor
 	showArmor = true
 	#Show/Hide armor
-	showMain = false
+	showMain = true
 	#Show/Hide armor
 	showOff = false
 	#Show/Hide armor
@@ -91,13 +91,13 @@
 	armHalign = "RIGHT"
 	#Armor HUD position (X)
 	#Range: -9999 ~ 9999
-	xArmPos = 67
+	xArmPos = 74
 	#Armor HUD position (Y)
 	#Range: -9999 ~ 9999
-	yArmPos = 52
+	yArmPos = 59
 	#Potion HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
-	potValign = "TOP"
+	potValign = "CENTER"
 	#Potion HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	potHalign = "RIGHT"
@@ -106,7 +106,7 @@
 	xPotionPos = 60
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPotionPos = 70
+	yPotionPos = 42
 	#Helmet position (X)
 	#Range: -9999 ~ 9999
 	helmPosX = 103

@@ -1,0 +1,11 @@
+
+#.
+[stressValues]
+
+	#.
+	[stressValues.impact]
+		iron_reinforced_copper_backtank = 4.0
+		diamond_reinforced_copper_backtank = 4.0
+		gold_reinforced_copper_backtank = 4.0
+		netherite_reinforced_copper_backtank = 4.0
+
